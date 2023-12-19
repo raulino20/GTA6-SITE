@@ -27,7 +27,7 @@
   justify-content: center;
   background-size: cover;
   background-position: bottom;
-  background-image: url(/sass/image/bg-carousel.jpg);
+  background-image: url(sass/image/bg-carousel.jpg);
 }
 
 @media (max-width: 768px) {
