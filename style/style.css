@@ -27,7 +27,7 @@
   justify-content: center;
   background-size: cover;
   background-position: bottom;
-  background-image: url(/imagens/bg-carousel.jpg);
+  background-image: url(../imagens/bg-carousel.jpg);
 }
 
 @media (max-width: 768px) {
@@ -211,7 +211,7 @@
   }
 }
 .container-conteudos {
-  background-image: url(/imagens/background-card.jpeg);
+  background-image: url(../imagens/background-card.jpeg);
   margin: 0.5rem auto auto auto;
   background-size: cover;
   height: auto;
