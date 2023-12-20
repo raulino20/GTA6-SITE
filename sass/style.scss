@@ -29,7 +29,7 @@ background-image: linear-gradient(180deg,black,purple);
     justify-content: center; 
     background-size: cover;
     background-position: bottom;
-    background-image: url(https://www.mundodomarketing.com.br/wp-content/uploads/2023/12/Rockstar-Games-divulga-data-de-publicacao-para-o-primeiro-trailer-de-GTA-6-jpg-1200x924.webp) ;
+    background-image: url(../imagens/bg-carousel.jpg) ;
 }
 
 @media(max-width:768px){
@@ -234,7 +234,7 @@ display: none;
 
 
 .container-conteudos{
-    background-image: url(imagens/background-card.jpeg);
+    background-image: url(../imagens/background-card.jpeg);
     margin:0.5rem auto auto auto;
     background-size: cover;
     height: auto;
