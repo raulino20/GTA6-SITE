@@ -168,6 +168,7 @@
     text-decoration: underline;
     text-decoration-style: double;
     text-decoration-color: deepskyblue;
+ }
 }
 
 @media (max-width: 768px) {
