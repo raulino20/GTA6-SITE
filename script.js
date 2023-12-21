@@ -4,6 +4,6 @@ function reload(){
 
 function Close(){ 
 
-    window.close()
+    alert('Opção indisponivel no momento .')
 
 }
