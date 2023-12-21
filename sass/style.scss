@@ -176,6 +176,17 @@ overflow:hidden;
     }
 }
 
+@media(max-width:425px){
+.TituloPag{
+    
+    font-weight: 600;
+    text-shadow: 0.2rem 0.3rem 0.5rem purple;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color:deepskyblue
+ }
+}
+
 @media(max-width:768px){
     .btnDrop{
         border: 1px solid rgba(133, 0, 160, 0.612);
