@@ -3,7 +3,5 @@ function reload(){
 }
 
 function Close(){ 
-alert("teste")
-window.close()    
-    
+alert("Acão Indisponivel no momento, foi mal ...  Ass :CRS ")
 }
