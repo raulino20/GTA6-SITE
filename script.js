@@ -3,5 +3,5 @@ function reload(){
 }
 
 function Close(){ 
-alert("Acão Indisponivel no momento, foi mal ...  Ass :CRS ")
+alert('Acão Indisponivel no momento, foi mal ...  Ass :CRS ')
 }
