@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Dhurjati&family=Island+Moments&family=Rubik+Doodle+Shadow&display=swap');
+
 .selecao{
 display: none;
 }
@@ -157,6 +159,7 @@ overflow:hidden;
 }
 
 .TituloPag{
+    font-family:Rubik Doodle Shadow;
     font-weight: 600;
     text-shadow: 0.2rem 0.3rem 0.5rem purple;
     text-decoration: underline;
@@ -167,6 +170,7 @@ overflow:hidden;
 
 @media(max-width:768px){
     .TituloPag{
+        font-family:Rubik Doodle Shadow;
         font-weight: 600;
         text-shadow: 0.2rem 0.3rem 0.5rem purple;
         text-decoration: underline;
@@ -178,7 +182,7 @@ overflow:hidden;
 
 @media(max-width:425px){
 .TituloPag{
-    
+    font-family:Rubik Doodle Shadow;
     font-weight: 600;
     text-shadow: 0.2rem 0.3rem 0.5rem purple;
     text-decoration: underline;
