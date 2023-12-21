@@ -3,7 +3,7 @@ function reload(){
 }
 
 function Close(){ 
-
+alert("teste")
 window.close()    
     
 }
