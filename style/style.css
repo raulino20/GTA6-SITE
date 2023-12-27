@@ -1,5 +1,4 @@
 @import 'https://fonts.googleapis.com/css2?family=Arizonia&family=Dhurjati&family=Island+Moments&family=Rubik+Doodle+Shadow&display=swap';
-
 .selecao {
   display: none;
 }
@@ -55,6 +54,10 @@
     text-align: center;
   }
 }
+.Moto {
+  display: none;
+}
+
 .ControlCaro {
   width: 5%;
   height: 100%;
@@ -70,6 +73,14 @@
   border: 2px solid rgba(0, 0, 0, 0.813);
   width: 100%;
   height: 60vh;
+}
+
+.Night {
+  display: none;
+}
+
+.Night {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -146,44 +157,41 @@
 }
 
 .TituloPag {
-  font-family:Rubik Doodle Shadow;
+  font-family: Rubik Doodle Shadow;
   font-weight: 600;
-  text-shadow: 0.2rem 0.3rem 0.5rem purple;
-  text-decoration: underline;
+  text-shadow: 0.2em 0.3rem 0.5rem purple;
+  text-decoration: underline 6px;
   text-decoration-style: double;
   text-decoration-color: deepskyblue;
 }
 
 @media (max-width: 768px) {
   .TituloPag {
-    font-family:Rubik Doodle Shadow;
+    font-family: Rubik Doodle Shadow;
     font-weight: 600;
+    text-decoration: underline 6px;
     text-shadow: 0.2rem 0.3rem 0.5rem purple;
     text-decoration: underline;
     text-decoration-style: double;
     text-decoration-color: deepskyblue;
   }
 }
-
-@media(max-width:425px){
-.TituloPag{
-    font-family:Rubik Doodle Shadow;
+@media (max-width: 425px) {
+  .TituloPag {
+    font-family: Rubik Doodle Shadow;
     font-weight: 600;
+    text-decoration: underline;
     text-shadow: 0.2rem 0.3rem 0.5rem purple;
     text-decoration: underline;
     text-decoration-style: double;
     text-decoration-color: deepskyblue;
- }
+  }
 }
-
 @media (max-width: 768px) {
   .btnDrop {
     border: 1px solid rgba(133, 0, 160, 0.612);
   }
 }
-
-
-
 .texto {
   font-family: monospace;
   text-align: center;
@@ -284,6 +292,8 @@
   }
 }
 .cartao {
+  width: 100%;
+  height: auto;
   box-shadow: 0.2rem 0.2rem 1rem black;
   padding: 0.2rem;
   overflow: hidden;
@@ -300,6 +310,10 @@
     width: 90%;
   }
 }
+#ContainerReal {
+  display: none;
+}
+
 .TituloCard {
   font-size: 30px;
   font-family: Dhurjati;
@@ -319,7 +333,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .Titulo-Complemento {
@@ -334,6 +348,10 @@
     font-weight: 600;
   }
 }
+#TitleReal {
+  display: none;
+}
+
 .Texto-Complemento {
   font-family: sans-serif;
   padding: 1rem;
@@ -353,6 +371,10 @@
     font-weight: 500;
   }
 }
+#TextReal {
+  display: none;
+}
+
 .img-ocean {
   width: 50%;
   box-shadow: 0.2rem 0.2rem 1rem hsl(186, 100%, 52%);
@@ -364,6 +386,10 @@
     box-shadow: 0.5rem 0.5rem 1rem aqua;
   }
 }
+#ImgReal {
+  display: none;
+}
+
 .footer {
   font-size: 20px;
   gap: 1rem;

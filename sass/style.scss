@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css2?family=Arizonia&family=Dhurjati&family=Island+Moments&family=Rubik+Doodle+Shadow&display=swap';
 
+
 .selecao{
 display: none;
 }
@@ -60,6 +61,10 @@ background-image: linear-gradient(180deg,black,purple);
     
 }
 
+.Moto{
+    display: none;
+}
+
 .ControlCaro{
     width: 5%;
     height: 100%;
@@ -76,6 +81,13 @@ background-image: linear-gradient(180deg,black,purple);
     border:2px solid rgba(0, 0, 0, 0.813);
     width:100%;
     height:60vh;
+}
+.Night{
+    display: none;
+}
+
+.Night{
+    display: none;
 }
 
 @media(max-width:768px){
@@ -159,12 +171,13 @@ overflow:hidden;
 }
 
 .TituloPag{
-    font-family:Rubik Doodle Shadow;
+
+    font-family: Rubik Doodle Shadow;
     font-weight: 600;
-    text-shadow: 0.2rem 0.3rem 0.5rem purple;
-    text-decoration: underline;
+    text-shadow: 0.2em 0.3rem 0.5rem purple;
+    text-decoration:underline 6px;
     text-decoration-style: double;
-    text-decoration-color:deepskyblue;
+    text-decoration-color:deepskyblue
 
 }
 
@@ -172,23 +185,25 @@ overflow:hidden;
     .TituloPag{
         font-family:Rubik Doodle Shadow;
         font-weight: 600;
+        text-decoration:underline 6px;
         text-shadow: 0.2rem 0.3rem 0.5rem purple;
         text-decoration: underline;
         text-decoration-style: double;
-        text-decoration-color:deepskyblue;
+        text-decoration-color:deepskyblue
     
     }
 }
 
 @media(max-width:425px){
-.TituloPag{
-    font-family:Rubik Doodle Shadow;
-    font-weight: 600;
-    text-shadow: 0.2rem 0.3rem 0.5rem purple;
-    text-decoration: underline;
-    text-decoration-style: double;
-    text-decoration-color:deepskyblue;
-   }
+    .TituloPag{
+        font-family:Rubik Doodle Shadow;
+        font-weight: 600;
+        text-decoration:underline;
+        text-shadow: 0.2rem 0.3rem 0.5rem purple;
+        text-decoration: underline;
+        text-decoration-style: double;
+        text-decoration-color:deepskyblue
+    }
 }
 
 @media(max-width:768px){
@@ -315,7 +330,8 @@ display: none;
 
 
 .cartao{
-    
+    width: 100%;
+    height: auto;
     box-shadow: 0.2rem 0.2rem 1rem black;
     padding: 0.2rem;
     overflow: hidden;
@@ -332,6 +348,10 @@ display: none;
     .cartao{
         width: 90%;
     }
+}
+
+#ContainerReal{
+    display: none;
 }
 
 .TituloCard{
@@ -354,7 +374,7 @@ display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .Titulo-Complemento{
@@ -364,12 +384,16 @@ display: none;
 }
 
 
-
 @media(max-width:768px){
     .Titulo-Complemento{
         font-size: medium;
          font-weight: 600;
-    }
+    }   
+}  
+ 
+#TitleReal{
+    
+    display: none;
 }
 
 .Texto-Complemento{
@@ -392,6 +416,10 @@ display: none;
     }
 }
 
+#TextReal{
+    display: none;
+}
+
 .img-ocean{
     width: 50%;
     box-shadow: 0.2rem 0.2rem 1rem hsl(186, 100%, 52%);
@@ -404,7 +432,9 @@ box-shadow: 0.5rem 0.5rem 1rem aqua;
     }
 }
 
-
+#ImgReal{
+    display: none;
+}
 
 
 .footer{
@@ -481,6 +511,7 @@ box-shadow: 0.5rem 0.5rem 1rem aqua;
     flex-direction: row;
     align-self: center;
     font-size: 20px;
+
 }
 
 @media(max-width:768px){

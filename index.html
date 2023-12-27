@@ -6,42 +6,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Dhurjati&family=Island+Moments&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/logo.oficial.png" type="image/x-icon">
     <link rel="stylesheet" href=./style/style.css>
-<link rel="" href="imagens">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTA 6 - Oficial </title>
 </head>
-<body class="corpo bg-dark ">
+<body class="corpo bg-dark">
 
 <header class="container-fluid cabeca" id="headerInc"> 
-<h1 class="h1 TituloPag text-center text-light ">RaulinoGM</h1>
+<h1 class="h1 TituloPag text-center text-light " id="TituloPag">RaulinoGM</h1>
 
 <ul id="lista" class="list-group LiUl">
-    <li class="h-25"><button class="btn btn-header" onclick="reload()"> <i class="bi bi-arrow-clockwise"></i> Reload</button></li>
-   <a href="#videoShow"> <li class="h-25"><button class="btn btn-header"> <i class="bi bi-play-fill"></i> Trailer</button></li></a>
-    <li class="h-25"><button class="btn btn-header" onclick="Close()"><i class="bi bi-box-arrow-left"> </i>Sair</button></li>
+    <li class="h-25"><button class="btn  btn-header" onclick="reload()"> <i class="bi bi-arrow-clockwise"></i> Reload</button></li>
+    <li class="h-25"><button class="btn  btn-header" onclick="Change()">POR QUE MIAMI ?</button> </li>
+   <a href="#videoShow"> <li class="h-25"><button class="btn bnt btn-header"> <i class="bi bi-play-fill"></i> Trailer</button></li></a>
+    <li class="h-25"><button class="btn  btn-header" onclick="Close()"><i class="bi bi-box-arrow-left"> </i>Sair</button></li>
 </ul>
 
 <div class="dropdown h-100 ">
   <button class="btn dropdown-toggle bg-light" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-box-arrow-down"></i></button>
 <ul class="dropdown-menu LIDrop">
-    <li class="dropdown-item p-1"><button class="btn btnDrop w-100" onclick="reload()">Reload <i class="bi bi-arrow-clockwise"></i></button></li>
-   <a href="#videoShow"><li class="dropdown-item p-1"><button class="btn btnDrop w-100">Trailer <i class="bi bi-play-fill "></i></button></li></a>
-   <li class="dropdown-item p-1"><button class="btn btnDrop w-100" onclick="Close()">Sair <i class="bi bi-box-arrow-left"></i></button></li>
+   <a href=""> <li class="dropdown-item p-1"><button class="btn btnDrop w-100" onclick="reload()">Reload <i class="bi bi-arrow-clockwise"></i></button></li></a>
+  <a href="#videoShow"><li class="dropdown-item p-1"><button class="btn btnDrop w-100">Trailer <i class="bi bi-play-fill "></i></button></li></a>
+       <li class="h-25"><button class="btn  btn-header" onclick="Change()">POR QUE MIAMI ?</button> </li>
+   <a href=""> <li class="dropdown-item p-1"><button class="btn btnDrop w-100">Sair <i class="bi bi-box-arrow-left"></i></button></li></a>
 </ul>
 </div>
 </header>
     
-<div class="container container-geral">
+<div class="container container-geral" s id="backChange">
  
-<div class="container container02">
+<div class="container container02 " id="C02">
 
  
 <div id="NextCard" class="carousel slide caro" data-bs-ride="carousel" data-bs-interval="3000">
     
     <div class="carousel-inner ">
       <div class="carousel-item active ">
-          <img src="imagens/personagens.jpeg" alt="" class="d-block img">
+          <img src="/imagens/personagens.jpeg" alt="" class="img" id="img">
+         
           <p class="paragraph">Lucia e Jason </p>
          
       </div>
@@ -66,8 +68,8 @@
       <p class="paragraph">Ocean Drive está de volta !</p>
       </div>
     </div>
-    
-  <a class="carousel-control-prev bg-dark w-auto" href="#NextCard" role="button" data-bs-slide="prev">
+
+    <a class="carousel-control-prev bg-dark w-auto" href="#NextCard" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only"></span>
     </a>
@@ -76,24 +78,71 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only"></span>
     </a>
-   
-  </div>
+  </div> 
+  
+
+
+
+  
+  <div id="ProCard" class="carousel slide Moto" data-bs-ride="carousel" data-bs-interval="3000">
+    
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+          <img src="/imagens/miami-beach.jpg" alt="" class="img" id="img">
+         
+          <p class="paragraph">Visual Incrivel</p>
+         
+      </div>
+
+      <div class="carousel-item ">
+         <img src="imagens/miami-night.jpg" alt="" class="d-block img">
+         <p class="paragraph">Ostentação</p>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="imagens/Beach-litoral.jpg" alt="" class="d-block img">
+        <p class="paragraph">Praias Incriveis </p>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="imagens/downtown-miami.jpg" alt="" class="d-block img"> 
+        <p class="paragraph">Cidade populosa  ! </p>
+      </div>
+
+      <div class="carousel-item ">
+        <img src="imagens/Pantanos.jpg" alt="" class="img">
+      <p class="paragraph">O Famoso Everglades National Park !</p>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev bg-dark w-auto" href="#ProCard" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  
+   <a class="carousel-control-next bg-dark w-auto" href="#ProCard" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>  
+  
 
  </div>
 </div>
 
 
 
-<div class="container container-conteudos">
+<div class="container container-conteudos" id="ContainerGamer">
 
-<div class="card cartao">
+<div class="card cartao " >
 <img src="imagens/mapa.jpeg" alt="" class="">
 <h3 class="TituloCard">Maior Mapa da franquia ?</h3>
 <p>GTA 6 vai permitir que os jogadores explorem mais uma vez a badalada Vice City. A cidade é conhecida entre os fãs por GTA Vice City. a localidade é famosa por ser focada em entretenimento e na vida urbana. O tamanho oficial do mapa permanece um mistério. Mas, o jogo pode ter um área explorável cerca de duas a três vezes maior que GTA V. desenvolvedores do estúdio confirmaram que este será o maior mapa da franquia.</p>
 
 </div>
 
-<div class="card cartao">
+
+<div class="card cartao " >
 
 <img src="imagens/praia.jpeg" alt="" class="">
 <h3 class="TituloCard">Mundo vivo e diverso</h3>
@@ -101,24 +150,73 @@
 
 </div>
 
-<div class="card cartao">
 
-<img src="imagens/personagens.jpeg" alt="" class="">
-<h3 class="TituloCard">Bonnie e Clyde ?</h3>
-<p >Pela primeira vez na franquia teremos uma personagem feminina que se chamará Lucia, uma mulher de origem latina, enquanto o masculino se chamará Jason. Nas imagens, eles aparecem como parceiros de crime assaltando lojas de conveniência na cidade de Vice City, inspirada em Miami, Flórida, e terá fortes inspirações em bonnie e clyde, um casal que realmente fez isso na década de 30.
+
+ <div class="card cartao " >
+
+  <img src="imagens/personagens.jpeg" alt="" class="">
+  <h3 class="TituloCard">Bonnie e Clyde ?</h3>
+  <p >Pela primeira vez na franquia teremos uma personagem feminina que se chamará Lucia, uma mulher de origem latina, enquanto o masculino se chamará Jason. Nas imagens, eles aparecem como parceiros de crime assaltando lojas de conveniência na cidade de Vice City, inspirada em Miami, Flórida, e terá fortes inspirações em bonnie e clyde, um casal que realmente fez isso na década de 30.
+  </p>
+  
+   </div>
+</div>
+
+
+<div class="container container-conteudos" id="ContainerReal">
+
+<div class="card cartao " >
+  <img src="imagens/Ilha.jpg" alt="" class="">
+  <h3 class="TituloCard">Locais Incriveis</h3>
+  <p>Apesar de Miami ser o principal destino para quem deseja fazer compras, o turismo na cidade vai muito além disso.
+    Praias, baladas, museus, parques e jardins encantam por sua beleza e exclusividade americana. A Ocean Drive é a principal avenida de Miami Beach. De frente pro mar está repleta de lojas, restaurantes e baladas, sem falar dos belíssimos prédios art déco.Agora para curtir a noite, não há melhor lugar. Na Ocean Drive acontece as melhores festas de Miami, como a Mango’s Tropical Miami, uma noite de salsa com seu jeitinho único.
+
+    Além da famosa Mansion Nightclub e a Nikki Beach Miami, a tradicional balada na praia.</p>
+  
+</div>
+
+
+<div class="card cartao " >
+
+  <img src="imagens/VidaNoturna.jpg" alt="" class="">
+  <h3 class="TituloCard">Noites Inesqueciveis</h3>
+  <p> A vida noturna de Miami está entre as mais diversificadas e expressivas do país. Essa cidade cheia de atividades e aventura durante o dia mas quando o sol se põe. Se você busca uma experiência mais voltada para adultos, encontra a opção que melhor atende às suas necessidades em Miami, o agito de Miami não vai em embora. A cidade não morre à noite, pelo contrário; para muita gente, esse é o melhor período do dia! Miami e Miami Beach são excelentes para quem viaja em busca de diversão e não quer terminar a noite tão cedo! Não importa o dia da semana, sempre há algo para fazer à noite em Miami! </p>
+  
+</div>
+
+
+
+<div class="card cartao  " >
+
+<img src="imagens/bizarrices.webp" alt="" class="">
+<h3 class="TituloCard">Bizarrices</h3>
+<p>Uma “Karen” (meme norte-americano, que se refere a mulheres brancas que se sente superioras a outras pessoas) cometeu atos racistas contra Eddie Perez, morador de sua vizinhança, e pegou dois martelos para quebrar o carro da vítima. 
+  Uma mulher foi avistada fazendo o movimento “twerk“, parecido com o famoso passo de funk chamado “quadradinho” aqui no Brasil, em cima de um veículo nos entornos de Miami. Na vida real, Acreditem, teve uma situação muito parecida envolvendo um homem que se intitula “Joker”. Preste atenção quando ele foi exibido sob custódia
+
 </p>
 
  </div>
+
+
 </div>
+
+
+
+
 
 <div class="container container-Complemento">
 
-  <h3 class="text-light Titulo-Complemento">GTA 6 PARA PS4/XBOX ONE ?</h3>
-  <p class="text-light Texto-Complemento">Em GTA 6, os jogadores irão revisitar a cidade de Vice City, mas agora em tempos modernos e com a dominância das redes sociais no cotidiano das pessoas. A cidade é uma representação de Miami e apareceu pela primeira vez no clássico Grand Theft Auto: Vice City, de 2002. Em um primeiro momento, GTA 6 só será lançado para PlayStation 5 e Xbox Series S|X, os consoles da atual geração. Nem o PlayStation 4, nem o Xbox One e muito menos o Nintendo Switch receberão versões do novo jogo, que foi construído para tirar o maior proveito possível dos atuais consoles.
+  <h3 class="text-light Titulo-Complemento" id="TitleGTA">GTA 6 PARA PS4/XBOX ONE ?</h3>
+  <h3 class="text-light TituloReal" id="TitleReal"> MIAMI </h3>
+  <p class="text-light Texto-Complemento" id="TextGTA">Em GTA 6, os jogadores irão revisitar a cidade de Vice City, mas agora em tempos modernos e com a dominância das redes sociais no cotidiano das pessoas. A cidade é uma representação de Miami e apareceu pela primeira vez no clássico Grand Theft Auto: Vice City, de 2002. Em um primeiro momento, GTA 6 só será lançado para PlayStation 5 e Xbox Series S|X, os consoles da atual geração. Nem o PlayStation 4, nem o Xbox One e muito menos o Nintendo Switch receberão versões do novo jogo, que foi construído para tirar o maior proveito possível dos atuais consoles.
 
     Uma versão para o sucessor do Nintendo Switch, entretanto, não está completamente fora de questão, porém só deve chegar depois que a versão dos demais consoles for concluída. Muito provável que Grand Theft Auto VI também tenha um lançamento para PC no futuro. A Rockstar tem o costume de lançar versões para computadores cerca de dois anos depois do lançamento original de seus títulos, o que deixaria uma possível estreia na plataforma apenas para 2027, com alguma sorte.</p>
 
-    <img src="imagens/ocean.jpeg" class="img-ocean">
+
+    <p class="text-light Texto-Complemento" id="TextReal">Assim é Miami, uma das mais famosas cidades da Flórida, nos Estados Unidos. Conhecida como “Magic City”, Miami conta com uma combinação de cultura urbana, ambientes descontraídos, ótimas praias e tradições latinas e norte-americanas, Miami é conhecida como a Capital da América Latina, por uma razão: você está nos EUA, mas com características Latinas. É tão perto de Havana quanto de Tallahasse, capital do estado, e é lar para uma das maiores comunidades hispânicas nos EUA. Em Ocean Drive, encontram-se os melhores restaurantes, bares e hotéis de toda a Miami Beach; a rua reúne um verdadeiro formigueiro de gente a qualquer dia e hora. Ocean Drive é uma das zonas mais populares de Miami. </p>
+    <img src="imagens/ocean.jpeg" class="img-ocean" id="ImgGTA">
+    <img src="imagens/miami-text.jpg" class="img-ocean" id="ImgReal">
+
 </div>
 
 <div class="container container-conteudos" id="videoShow">
