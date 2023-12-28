@@ -41,7 +41,7 @@ const ImgGTA = document.getElementById('ImgGTA')
 
 CarouselGTA.style.display = 'none'
 CarouselReal.style.display = 'block'
-CarouselReal.style.width = '80%'
+CarouselReal.style.width = '100%'
 CarouselReal.style.height = '100%'
 CarouselReal.style.textAlign = 'center'
 CarouselReal.style.boxShadow = '0.3rem 0.3rem 1rem green'
