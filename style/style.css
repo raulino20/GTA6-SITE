@@ -144,8 +144,8 @@
   }
 }
 .btn-header {
-  background-color: aliceblue;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid purple;
   transition: 1s;
 }
 .btn-header:hover {
