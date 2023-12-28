@@ -143,17 +143,25 @@
     width: 100%;
   }
 }
-.btn-header {
-  background-color: white;
-  border: 1px solid purple;
-  transition: 1s;
+
+.btn-header{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    transition: 1s;
+    &:hover{
+       background-color: rgb(58, 58, 58);
+       color: aliceblue;
+       box-shadow: 0.2rem 0.2rem 1rem rgb(169, 0, 169);
+       border: 1px solid rgb(125, 125, 125);
+       transition: 1s;
+    }
 }
-.btn-header:hover {
-  background-color: rgb(58, 58, 58);
-  color: aliceblue;
-  box-shadow: 0.2rem 0.2rem 1rem rgb(169, 0, 169);
-  border: 1px solid rgb(125, 125, 125);
-  transition: 1s;
+
+@media(max-width:768px){
+.btn-header{
+    background-color:none;
+    border:1px solid purple;
+}
 }
 
 .TituloPag {
