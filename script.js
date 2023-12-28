@@ -72,6 +72,8 @@ Text.style.textDecorationColor = 'purple'
 
 ContGamer.style.display = 'none'
 ContReal.style.display = 'flex'
+ContReal.style.backgroundImage = 'url("imagens/background-Neom.jpeg")'
+ContReal.style.backgroundSize = 'cover'
 
 TitleGTA.style.display = 'none'
 TitleReal.style.display = 'flex'
