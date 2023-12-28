@@ -175,6 +175,7 @@
 
 @media (max-width: 768px) {
   .TituloPag {
+    margin: 0 auto;
     font-family: Rubik Doodle Shadow;
     font-weight: 600;
     text-decoration: underline 6px;
@@ -186,6 +187,7 @@
 }
 @media (max-width: 425px) {
   .TituloPag {
+    margin: 0 auto;
     font-family: Rubik Doodle Shadow;
     font-weight: 600;
     text-decoration: underline;
