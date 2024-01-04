@@ -4,7 +4,7 @@ function reload(){
 
 function Close(){ 
 
-    window.close()
+   window.alert(" Ação indisponivel no momento . ")
 
 }
 
